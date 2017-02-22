@@ -9,7 +9,7 @@ class Tp_SortRating_Model_Config extends Mage_Catalog_Model_Config
     {
         return array_merge(
             parent::getAttributeUsedForSortByArray(),
-            array('sort_rating' => Mage::helper('catalog')->__('Rating'))
+            array('sort_rating' => Mage::helper('catalog')->__('Customer Rating'))
         );
     }
 }

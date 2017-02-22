@@ -39,6 +39,17 @@
             </sortrating_setup>
         </resources>
     </global>
+    <frontend>
+        <translate>
+            <modules>
+                <Tp_SortRating>
+                    <files>
+                        <default>Tp_SortRating.csv</default>
+                    </files>
+                </Tp_SortRating>
+            </modules>
+        </translate>
+    </frontend>
     <crontab>
         <jobs>
             <Tp_SortRating_update>
